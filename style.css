@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.judul{
+    display: grid;
+    background-image: url(/images/OH3C840.jpg); 
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3) ;
+}
+
+
+
+.judul h1{
+    color:  rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 90px;
+    font-family: Clicker Script;
+}
+
+
+.sub-judul{
+    display: grid;
+    background-color: rgb(100, 100, 100);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+
+}
+
+.sub-judul h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Clicker Script;
+    text-align: center;
+}
+
+.list-nama{
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(9, auto);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+.list{
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;
+    border: 3px solid grey;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+
+.foto { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: stretch;
+    padding: 50px;
+    }
+  .foto > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+  .foto > article img {
+    max-width: 100%;
+  }
+  .text {
+    padding: 0 20px 20px;
+  }
+  .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
