@@ -87,53 +87,12 @@ body{
     grid-gap: 20px;
     align-items: stretch;
     padding: 50px;
-    }
-  .foto > article {
-    border: 1px solid #ccc;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-  }
-  .foto > article img {
-    max-width: 100%;
-  }
+}
 
-  .foto > article img:hover{
-    transform: scale(1.2);
-  }
+h4{
+  margin: 0;
+}
 
-
-  .text {
-    padding: 0 20px 20px;
-  }
-  .text > button {
-    background: gray;
-    /* border: 0; */
-    color: white;
-    padding: 10px;
-    width: 100%;
-    }
-
-  .text > button:hover{
-    background-color: rgb(83, 83, 83);
-  }  
-
-  .gallery {
-    /* background: #EEE; */
-  }
-  
-  .gallery-cell {
-    width: 66%;
-    height: 100px;
-    margin-right: 10px;
-    background: #8C8;
-    counter-increment: gallery-cell;
-  }
-  
-  .gallery-cell:before {
-    display: block;
-    text-align: center;
-    content: counter(gallery-cell);
-    line-height: 100px;
-    font-size: 80px;
-    color: white;
-  }
+p{
+  margin: 0;
+}
