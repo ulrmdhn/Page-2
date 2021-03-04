@@ -3,7 +3,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 245, 231);
+    background-color: rgb(255, 255, 255);
 }
 
 .judul{
@@ -87,7 +87,16 @@ body{
     grid-gap: 20px;
     align-items: stretch;
     padding: 50px;
+    cursor: pointer;
 }
+
+.card:hover{
+  transform: scale(1.2);
+  box-shadow: 8px 10px 14px -13px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 8px 10px 14px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: 8px 10px 14px -13px rgba(0,0,0,0.75);
+}
+
 
 h4{
   margin: 0;
